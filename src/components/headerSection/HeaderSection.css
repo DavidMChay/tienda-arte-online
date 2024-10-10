@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,23 +11,26 @@
     background-image: linear-gradient(to right top, #a259ff, #714bc1, #4a3a84, #2c2749, #121212);
     border-bottom: 1px solid #e0e0e0;
     color: white;
+    font-family: 'Barlow', sans-serif;
+    height: 39rem;
 }
 
 .custom-hs-styles .container-hs {
     display: inline-flex;
+    margin-left: 5rem;
 }
 
 .custom-hs-styles .container-hs .image-section {
     display: inline-flex;
     align-items: center;
     gap: 1rem;
-    margin-top:3rem;
-    margin-left: 3rem;
+    margin-top:1rem;
+    margin-left: 4rem;
 }
 
 .custom-hs-styles .container-hs .image-section .image-container {
-    width: 15rem;
-    height: 30rem;
+    width: 14rem;
+    height: 28rem;
     overflow: hidden;
     position: relative;
 }
@@ -36,4 +40,47 @@
     height: 100%;
     object-fit: cover;
     object-position: center
+}
+
+.custom-hs-styles .container-hs .right-text-area {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+.custom-hs-styles .container-hs .right-text-area .introduction-text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.custom-hs-styles .container-hs .right-text-area .introduction-text .slogan-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top:2rem;
+}
+
+.custom-hs-styles .container-hs .right-text-area .introduction-text .little-bit-more{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top:2rem;
+}
+
+.custom-hs-styles .container-hs .right-text-area .introduction-text .stadistics {
+    display: inline-flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.custom-hs-styles .container-hs .right-text-area .introduction-text .stadistics .a-stadistic-for {
+    line-height: 1.8rem;
+}
+
+.custom-hs-styles .container-hs .right-text-area .introduction-text .stadistics .a-stadistic-for h2 {
+    font-size: 2rem;
+    font-weight: 600;
 }

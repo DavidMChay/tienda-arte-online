@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-hs-styles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(to right top, #a259ff, #714bc1, #4a3a84, #2c2749, #121212);
+    border-bottom: 1px solid #e0e0e0;
+    color: white;
+}
+
+.custom-hs-styles .container-hs {
+    display: inline-flex;
+}
+
+.custom-hs-styles .container-hs .image-section {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top:3rem;
+    margin-left: 3rem;
+}
+
+.custom-hs-styles .container-hs .image-section .image-container {
+    width: 15rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-hs-styles .container-hs .image-section .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}

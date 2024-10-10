@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-modal-button {
+    margin-top: 5rem;
+    position: relative;
+    left: 5rem;
+    z-index: 20;
+  }
+  

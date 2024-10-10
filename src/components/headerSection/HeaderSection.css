@@ -8,11 +8,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-image: linear-gradient(to right top, #a259ff, #714bc1, #4a3a84, #2c2749, #121212);
+    background-image: linear-gradient(40deg, rgba(162,89,255,1) 0%, rgba(61,44,83,1) 25%, rgba(25,25,25,1) 59%, rgba(25,25,25,1) 96%, rgba(96,59,76,1) 100%);
     border-bottom: 1px solid #e0e0e0;
     color: white;
     font-family: 'Barlow', sans-serif;
     height: 39rem;
+    margin-top:4rem;
 }
 
 .custom-hs-styles .container-hs {

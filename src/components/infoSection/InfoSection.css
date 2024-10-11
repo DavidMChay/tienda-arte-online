@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.info-section {
+    background-image: linear-gradient(to right, #4b0082, #8a2be2, #4b0082);
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .stat-item h3 {
+    color: #ffffff; /* Color de las cifras */
+  }
+  
+  .stat-item p {
+    color: #d1d5db; /* Color de las etiquetas */
+  }
+  
+  .info-section button {
+    border-width: 2px;
+    transition: all 0.3s ease;
+  }
+  

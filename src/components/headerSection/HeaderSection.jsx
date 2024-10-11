@@ -30,7 +30,7 @@ export default function HeaderSection() {
                                 <p>Dibujos en venta</p>
                             </div>
                             <div className="a-stadistic-for">
-                                <h2>200</h2>
+                                <h2>2,000</h2>
                                 <p>Artistas</p>
                             </div>
                             <div className="a-stadistic-for">

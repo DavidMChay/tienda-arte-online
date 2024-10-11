@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPaintBrush, FaPencilRuler, FaMusic, FaExclamationCircle } from 'react-icons/fa'; // Importar íconos de react-icons
+import { FaPaintBrush, FaGrinAlt, FaBrush, FaExclamationCircle } from 'react-icons/fa'; // Importar íconos de react-icons
 import './CategoriesSection.css'; // Si necesitas agregar estilos personalizados
 
 // Importar imágenes de ejemplo para las categorías
@@ -10,8 +10,8 @@ import nsfw from './nsfw.png';
 
 const categories = [
     { id: 1, name: 'Arte Digital', icon: <FaPaintBrush size={32} />, img: digitalArt },
-    { id: 2, name: 'Cartoon', icon: <FaPencilRuler size={32} />, img: cartoon },
-    { id: 3, name: 'Fan Arts', icon: <FaMusic size={32} />, img: fanArt },
+    { id: 2, name: 'Cartoon', icon: <FaGrinAlt size={32} />, img: cartoon },
+    { id: 3, name: 'Fan Arts', icon: <FaBrush size={32} />, img: fanArt },
     { id: 4, name: 'NSFW', icon: <FaExclamationCircle size={32} />, img: nsfw },
 ];
 

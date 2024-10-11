@@ -8,6 +8,7 @@ import InfoSection from './components/infoSection/InfoSection'
 import CategoriesSection from './components/categoriesSection/CategoriesSection'
 import CategoryCarousel from './components/categoryCarousel/CategoryCarousel'
 import ThreeStepSection from './components/threeStepsSection/ThreeStepsSection'
+import NewsletterSection from './components/newsLetterSection/NewsLetterSection'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -20,5 +21,6 @@ createRoot(document.getElementById('root')).render(
     <CategoriesSection />
     <CategoryCarousel />
     <ThreeStepSection />
+    <NewsletterSection />
   </StrictMode>,
 )

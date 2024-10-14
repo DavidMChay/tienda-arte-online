@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-banner{
+    font-family: 'Barlow', sans-serif;
+}
+
+.custom-banner h1{
+    padding-right:30rem;
+    padding-top:5rem
+}
+
+.custom-banner a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : #3D6EB3;
+}
+
+.custom-banner a .icon-e{
+    margin-left: 0.5rem;
+}
+
+.custom-banner a:hover {
+    color: white;
+}

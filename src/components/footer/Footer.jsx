@@ -1,18 +1,16 @@
 import React from 'react';
-import { FaTwitter, FaInstagram, FaFacebook, FaArrowRight } from 'react-icons/fa'; // Importar íconos de redes sociales
-import './Footer.css'; // Opcional: Para estilos personalizados
-import logo from './artevivo-logo.png'; // Asegúrate de tener el logo en la carpeta del componente
+import { FaTwitter, FaInstagram, FaFacebook, FaArrowRight } from 'react-icons/fa';
+import './Footer.css';
+import logo from './artevivo-logo.png';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
     <footer className="custom-footer text-gray-300 py-12 px-6">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
-        {/* Logo y Suscripción */}
         <div className="md:col-span-2 space-y-4">
-          {/* Logo */}
           <img src={logo} alt="Arte Vivo Market Logo" className="h-12 w-auto mb-4" />
           <p>Ingrese su correo para suscribirse a ArtVivo y recibir las ultimas noticias.</p>
-          {/* Formulario de Suscripción */}
           <div className="flex">
             <input
               type="email"
@@ -23,7 +21,6 @@ export default function Footer() {
               <FaArrowRight className="h-5 w-5" />
             </button>
           </div>
-          {/* Iconos de Redes Sociales */}
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-gray-400 hover:text-white">
               <FaTwitter className="h-6 w-6" />
@@ -37,11 +34,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Enlaces de Navegación */}
         <div>
           <h4 className="text-white text-lg font-semibold mb-4">Arte Vivo</h4>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-white">Explora</a></li>
+            <li><Link to="/descubre" className="hover:text-white">Descubre</Link></li>
             <li><a href="#" className="hover:text-white">Arte Digital</a></li>
             <li><a href="#" className="hover:text-white">Nosotros</a></li>
           </ul>
@@ -68,7 +64,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Términos y Derechos Reservados */}
+  
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-500">
         <p>
           <a href="#" className="hover:text-white">Términos</a> |{' '}
